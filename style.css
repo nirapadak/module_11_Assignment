@@ -1,0 +1,86 @@
+:root {
+  --myFont-family: 'Archivo', sans-serif;
+  --myFont-familyTwo: 'Bebas Neue',sans-serif;
+  --color-Primary: hsl(229, 67%, 62%);
+
+}
+
+body {
+  background-color: var(--color-Primary);
+}
+.container {
+   font-size: 20px; 
+   
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   /* align-items: end; */
+}
+
+h1 {
+  font-family: var(--myFont-familyTwo);
+  font-size: 70px;
+  color: aliceblue;
+  justify-content: center;
+
+  text-align: center;
+  padding:5px;
+}
+
+h1:hover,
+h1:focus{
+  outline-offset: 3px;
+}
+
+
+.container p {
+  text-align: center;
+
+}
+/* p:hover{
+  background-color: #5139d846;
+} */
+
+.image{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  table-layout: auto;
+  border-collapse: collapse;
+  border: 2px solid #0f0f0f;
+  /* border: 2px solid #000000; */
+}
+
+.imageOne img{
+  transition: transform 0.8s;
+  object-fit: cover;
+  min-width: 10px;
+}
+.imageOne{
+  border-radius: 20px;
+  overflow: hidden;
+  object-fit: contain;
+  justify-content: center;
+}
+
+img:hover{
+  transform: scale(1.5);
+}
+
+td {
+  background-color: #0f0f0f;
+  color: aliceblue;
+  padding: 15px;
+  border-top: #ffffff;
+  border-left: #ffffff;
+}
+
+td:hover {
+  color: #0f0f0f;
+  background-color: yellow;
+}
