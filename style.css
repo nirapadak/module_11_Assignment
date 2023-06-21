@@ -10,20 +10,16 @@ body {
 }
 .container {
    font-size: 20px; 
-   
+   text-align: center;
    display: flex;
    flex-direction: column;
-   /* justify-content: center; */
-   /* align-items: end; */
+   justify-content: center;
 }
 
 h1 {
   font-family: var(--myFont-familyTwo);
   font-size: 70px;
   color: aliceblue;
-  justify-content: center;
-
-  text-align: center;
   padding:5px;
 }
 
@@ -35,18 +31,26 @@ h1:focus{
 
 .container p {
   text-align: center;
+  padding: 5%;
+  font-weight: bold;
+  border-radius: 20px;
+  transform: 0.8s;
+  border: solid 1px #79af23;
 
 }
-/* p:hover{
+p:hover{
   background-color: #5139d846;
-} */
-
+  color: #ffffff;
+}
 .image{
   align-items: center;
-  margin-right: 20%;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+}
+.tableCon{
+  width: 100%;
+  margin-right: 4.5%;
 }
 
 table {
@@ -56,6 +60,10 @@ table {
   border-collapse: collapse;
   border: 2px solid #0f0f0f;
   /* border: 2px solid #000000; */
+}
+.imageOne{
+  margin-left: 18%;
+  margin-right: 18%;
 }
 
 .imageOne img{
@@ -90,5 +98,5 @@ td {
 
 td:hover {
   color: #0f0f0f;
-  background-color: yellow;
+  background-color: rgb(168, 168, 68);
 }
